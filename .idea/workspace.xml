@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7d8f4d3-a46b-46b8-a157-69f7c308ee36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ReadTheFile.java" afterPath="$PROJECT_DIR$/src/main/java/ReadTheFile.java" />
     </list>
     <ignored path="MarsRover.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,10 +87,10 @@
       <file leaf-file-name="ReadTheFile.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReadTheFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="24" selection-start="514" selection-end="514" vertical-scroll-proportion="0.4474432" vertical-offset="0" max-vertical-offset="704">
+            <state line="13" column="11" selection-start="257" selection-end="257" vertical-scroll-proportion="0.27698863" vertical-offset="0" max-vertical-offset="704">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#329#337#0" expanded="true" />
+                <element signature="e#338#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,9 +111,9 @@
       <list>
         <option value="$PROJECT_DIR$/profiles.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Rover.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReadTheFile.java" />
         <option value="$PROJECT_DIR$/src/main/resources/note.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReadTheFile.java" />
       </list>
     </option>
   </component>
@@ -601,7 +601,7 @@
         <state line="20" column="26" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="660">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#329#337#0" expanded="true" />
+            <element signature="e#338#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -625,7 +625,7 @@
         <state line="13" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="660">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#329#337#0" expanded="true" />
+            <element signature="e#338#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -658,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
@@ -686,12 +679,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReadTheFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="514" selection-end="514" vertical-scroll-proportion="0.4474432" vertical-offset="0" max-vertical-offset="704">
+        <state line="13" column="11" selection-start="257" selection-end="257" vertical-scroll-proportion="0.27698863" vertical-offset="0" max-vertical-offset="704">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#329#337#0" expanded="true" />
+            <element signature="e#338#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
