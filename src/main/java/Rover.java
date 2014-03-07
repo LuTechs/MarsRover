@@ -7,12 +7,13 @@ public class Rover {
     private int x;
     private int y;
     private char direction;
-
+    // Set Coordinate
     public void setCoordinate(int mX, int mY) {
         this.mX = mX;
         this.mY = mY;
     }
 
+    //Set Position for Rover
     public void setPosition(int x, int y, char direction) {
         this.x = x;
         this.y = y;
