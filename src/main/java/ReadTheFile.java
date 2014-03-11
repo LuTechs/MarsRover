@@ -16,7 +16,7 @@ public class ReadTheFile {
         List<String> result=new ArrayList<String>();
 
         try {
-            BufferedReader in = new BufferedReader(new FileReader("/Users/leng/IdeaProjects/MarsRover/src/main/resources/note.txt"));
+            BufferedReader in = new BufferedReader(new FileReader("/Users/user/Desktop/GitProjects/MarsRover/src/main/resources/note.txt"));
             String line;
             while ((line=in.readLine() )!= null){
               result.add(line);
