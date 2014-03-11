@@ -6,17 +6,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by leng on 7/03/2014.
+ * Created by Rob on 7/03/2014.
  */
 
 public class ReadTheFile {
 
-//Rob Do it     //ok
+    //Reading Input From File
     public List<String> readTheFile(){
         List<String> result=new ArrayList<String>();
 
         try {
-            BufferedReader in = new BufferedReader(new FileReader("/Users/user/Desktop/GitProjects/MarsRover/src/main/resources/note.txt"));
+            String workingDir = System.getProperty("user.dir");
+            BufferedReader in = new BufferedReader(new FileReader(workingDir+"/src/main/resources/note.txt"));
             String line;
             while ((line=in.readLine() )!= null){
               result.add(line);
