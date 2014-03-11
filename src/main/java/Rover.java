@@ -102,7 +102,7 @@ public class Rover {
     }
 
     public void printResult() {
-        System.out.println("X=" + this.x + " , Y=" + this.y + " and Direction is facing :" + this.direction);
+        System.out.println( this.x +" "  + this.y + " " + this.direction);
 
 
     }
