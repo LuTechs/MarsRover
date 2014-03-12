@@ -15,10 +15,10 @@ import java.util.List;
  * It will ensure errors are taken into account using exceptions.
  * The list is then returned.
  */
-public class ReadTheFile {
+public class RoverFileReader {
 
     //Reading Input From File
-    public List<String> readTheFile(){
+    public List<String> read(){
         List<String> result=new ArrayList<String>();
 
         try {
@@ -41,3 +41,14 @@ public class ReadTheFile {
 
 
 }
+//
+//
+//public class RoverNetworkPortReader implements RoverReader {
+//    public List<String> read() {
+//        return null;
+//    }
+//}
+//
+//public interface RoverReader {
+//    public List<String> read();
+//}

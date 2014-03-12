@@ -12,6 +12,11 @@ public class Rover {
     private int mY;
     private int x;
     private int y;
+
+    public char getDirection() {
+        return direction;
+    }
+
     private char direction;
     // Set Coordinate
     public void setCoordinate(int mX, int mY) {
@@ -20,12 +25,14 @@ public class Rover {
     }
 
     //Set Position for Rover
-    public void setPosition(int x, int y, char direction) {
+    public void     setPosition(int x, int y, char direction) {
         this.x = x;
         this.y = y;
         this.direction = direction;
 
     }
+
+
 
     //set instructions for each character in th estring for directions
     public void setInstruction(String instruction) {

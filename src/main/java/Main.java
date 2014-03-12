@@ -16,21 +16,25 @@ public class Main {
 
         List<String> inputList;
 
-        ReadTheFile f=new ReadTheFile();
-        inputList = f.readTheFile();
+        RoverFileReader roverFileReader=new RoverFileReader();
+        inputList = roverFileReader.read();
 
-        Rover r=new Rover();
+        Rover rover=new Rover();
 
         for(int x = 0; x < inputList.size(); x++){
+            // r = new Rover(inputList[i], inputList[i+1])
+            // r.move()
             if(x == 0){
-                r.setCoordinate(Integer.parseInt(inputList.get(x).charAt(0)+""),Integer.parseInt( inputList.get(x).charAt(2)+""));
+                rover.setCoordinate(Integer.parseInt(inputList.get(x).charAt(0) + ""), Integer.parseInt(inputList.get(x).charAt(2) + ""));
             }else if((x % 2 )== 1){
-                r.setPosition(Integer.parseInt(inputList.get(x).charAt(0)+""), Integer.parseInt(inputList.get(x).charAt(2)+""), inputList.get(x).charAt(4));
+                rover.setPosition(Integer.parseInt(inputList.get(x).charAt(0) + ""), Integer.parseInt(inputList.get(x).charAt(2) + ""), inputList.get(x).charAt(4));
             } else{
-                r.setInstruction(inputList.get(x));
-                r.printResult();
+                rover.setInstruction(inputList.get(x));
+                rover.printResult();
             }
 
+            // RoverOutputFormatter formatter = new ...
+            // formatter.print(rover)
         }
 
     }
