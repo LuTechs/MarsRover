@@ -1,5 +1,11 @@
 /**
- * Created by leng on 7/03/2014.
+ * Project: Mars Rover Version: 1.0
+ * Created by Leng and Rob on 7/03/2014.
+ */
+
+/**
+ * This is where the rover is created, variables are assigned for its coordinates and position.
+ * A direction is assigned too.
  */
 public class Rover {
     private int mX;
@@ -21,6 +27,7 @@ public class Rover {
 
     }
 
+    //set instructions for each character in th estring for directions
     public void setInstruction(String instruction) {
         char[] inst = instruction.toCharArray();
         for (char ins : inst) {
@@ -38,6 +45,7 @@ public class Rover {
         }
     }
 
+    //set the right turn direction
     public void turnRight() {
         switch (direction) {
             case 'N':
@@ -57,6 +65,7 @@ public class Rover {
 
     }
 
+    //set the left turn direction
     public void turnLeft() {
         switch (direction) {
             case 'N':
@@ -76,6 +85,7 @@ public class Rover {
 
     }
 
+    // set the movement action
     public void move() {
         switch (direction) {
             case 'N':
@@ -101,6 +111,7 @@ public class Rover {
         }
     }
 
+    //a function used to print the current position of the rover
     public void printResult() {
         System.out.println( this.x +" "  + this.y + " " + this.direction);
 

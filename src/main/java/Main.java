@@ -1,16 +1,20 @@
 import java.util.List;
 
 /**
- * Created by leng on 7/03/2014.
+ * Project: Mars Rover Version: 1.0
+ * Created by Leng and Rob on 7/03/2014.
+ */
+
+/**
+ * Main Class. Used as the initializer of the program.
+ * The file reader is created here, which is followed by the rover.
+ * Each action of the rover is called from here.
  */
 public class Main {
 
     public static void main(String args[]){
 
         List<String> inputList;
-
-        System.out.println("Starting Test");
-
 
         ReadTheFile f=new ReadTheFile();
         inputList = f.readTheFile();

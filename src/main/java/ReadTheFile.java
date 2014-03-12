@@ -6,9 +6,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Rob on 7/03/2014.
+ * Project: Mars Rover Version: 1.0
+ * Created by Leng and Rob on 7/03/2014.
  */
 
+/**
+ * This class is used to transfer te strings from the read document into an array list.
+ * It will ensure errors are taken into account using exceptions.
+ * The list is then returned.
+ */
 public class ReadTheFile {
 
     //Reading Input From File
